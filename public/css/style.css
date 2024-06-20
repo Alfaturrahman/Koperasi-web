@@ -1,0 +1,123 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none !important;
+}
+ 
+html, body, section
+{
+    position: relative;
+    height: 100%;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+
+
+#content .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+
+.container-fluid {
+    padding: 100px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+form,
+input,
+textarea,
+button {
+    font-family: inherit;
+    font-size: initial;
+}
+
+.form-group label {
+    display: block;
+    margin: 1rem 0 0.5rem 0;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 1rem 0.8rem;
+    
+    outline: 0;
+    transition: border 0.15s;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"] {
+    height: 4.6rem;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.submit {
+    background: #1dbcfd;
+    color: white;
+    font-weight: bold;
+    margin-top: 1rem;
+    padding: 1rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    transition: background 0.15s;
+}
+
+.submit:hover {
+    background: rgba(173, 216, 230, 1);
+    color: black;
+}
+
+
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group textarea:focus {
+    border: 1px solid #1dbcfd;
+}
+
+/* responsive */
+
+@media screen and (min-width: 576px) {
+    .wrapper {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .wrapper {
+        width: 55%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .wrapper {
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .wrapper {
+        width: 35%;
+    }
+}

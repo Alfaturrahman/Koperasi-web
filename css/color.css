@@ -1,0 +1,21 @@
+.bg-kuning{
+    background: #F3cd20;
+}
+.btn.kuning{
+    background: #F3cd20;
+}
+
+.bg-biru{
+    background: #1f3248;
+    color: white;
+}
+.btn-biru{
+    background: #1f3248;
+    color: white;
+}
+.hitam{
+    color: black;
+}
+.gelap{
+    color: #212529;
+}

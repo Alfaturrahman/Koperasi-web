@@ -1,0 +1,23 @@
+.table-responsive {
+    overflow-x: auto;
+  }
+  
+  .table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+  }
+  
+  .table thead th {
+    white-space: nowrap;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .table-responsive {
+      width: 100%;
+      overflow-x: scroll;
+      -webkit-overflow-scrolling: touch;
+      -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+  }
